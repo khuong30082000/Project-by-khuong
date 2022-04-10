@@ -14,7 +14,7 @@ function App() {
       <div className="wrapper-content">
         <Header />
         <Switch>
-          <Route path="/post/:slug">
+          <Route path="/post:slug">
             <PostDetailPage />
           </Route>
           <Route path="/search">

@@ -7,16 +7,12 @@ import RegisterPage from "./pages/RegisterPage";
 import SearchPage from "./pages/SearchPage";
 
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
-import PostDetailPage from "./pages/PostDetailPage";
 function App() {
   return (
     <BrowserRouter>
       <div className="wrapper-content">
         <Header />
         <Switch>
-          <Route path="/post/:slug">
-            <PostDetailPage />
-          </Route>
           <Route path="/search">
             <SearchPage />
           </Route>
