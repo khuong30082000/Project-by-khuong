@@ -1,4 +1,3 @@
-import { useParams } from "react-router-dom";
 import PostDetailContent from "../components/PostDetail/PostDetailContent";
 import PostDetailHead from "../components/PostDetail/PostDetailHead";
 import PostDetailSidebar from "../components/PostDetail/PostDetailSidebar";
@@ -6,8 +5,6 @@ import PostDetailSidebar from "../components/PostDetail/PostDetailSidebar";
 import './post-detail.css'
 
 function PostDetailPage() {
-  const params = useParams()
- 
   return (
     <main className="post-detail">
       <div className="spacing" />

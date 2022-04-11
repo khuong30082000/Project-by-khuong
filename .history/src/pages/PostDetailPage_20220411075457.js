@@ -6,8 +6,7 @@ import PostDetailSidebar from "../components/PostDetail/PostDetailSidebar";
 import './post-detail.css'
 
 function PostDetailPage() {
-  const params = useParams()
- 
+  useParams()
   return (
     <main className="post-detail">
       <div className="spacing" />

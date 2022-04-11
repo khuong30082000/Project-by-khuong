@@ -7,7 +7,6 @@ import './post-detail.css'
 
 function PostDetailPage() {
   const params = useParams()
- 
   return (
     <main className="post-detail">
       <div className="spacing" />
